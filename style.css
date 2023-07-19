@@ -1,0 +1,111 @@
+body {
+    margin: 4rem;
+ 
+}
+
+#formContainer {
+    margin-bottom: 20px;
+
+}
+
+.firstText {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.addButton {
+    width: 60px;  
+}
+
+.tableText {
+    font-family: 'Quicksand', sans-serif;
+}
+.buttonDiv {
+    text-align: center;
+}
+
+.divSecond {
+    text-align: center;
+}
+.inputText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+input,
+textarea {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: #fff;
+}
+
+/* splash page */
+
+.splash {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    transition: all ease-in-out 600ms;
+}
+
+.hidden{
+    transition: 0.5s;
+    display: none;
+}
+
+.splash-header {
+    height: 90%;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
